@@ -1,3 +1,6 @@
+Before initial run run migrations and seeds(for comfort categories, positions, etc): php artisan migrate:fresh --seed
+
+
 For all routes:
 Accept:application/json
 Content-Type:application/json
